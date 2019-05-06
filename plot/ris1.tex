@@ -2,7 +2,7 @@
 \usepackage{cmap}
 \usepackage[T2A]{fontenc}
 % \usepackage[utf8x]{inputenc}
-
+ 
 \usepackage[russian]{babel}
 \usepackage[utf8x]{inputenc}
 \usepackage{amsmath}
@@ -31,16 +31,16 @@
 \begin{tikzpicture}[scale=1]
 	\matrix[column sep=3mm,row sep=3mm]{
 	\begin{axis}[%
-	title={$\phi (x)$ для мультивибратора},
+	title={$\varphi (x)$ мультивибратора},
 	name=plot1,
 	]
-	\addplot graphics [xmin=0,xmax=1,ymin=0,ymax=1] {../photo/mult};
+	\addplot graphics [xmin=0,xmax=1,ymin=0,ymax=1] {../photo/mult2};
 	\end{axis}
 	&	\begin{axis}[%
 	title={Фазовая плоскость мультивибратора},
 	name=plot1,
 	]
-	\addplot graphics [xmin=0,xmax=1,ymin=0,ymax=1]  {../photo/fpmult};
+	\addplot graphics [xmin=0,xmax=1,ymin=0,ymax=1]  {../photo/fpmult2};
 	\end{axis} \\
 };
 \end{tikzpicture}

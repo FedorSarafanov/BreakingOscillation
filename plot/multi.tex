@@ -1,7 +1,7 @@
 \documentclass[tikz]{standalone}
 \usepackage{cmap}
 \usepackage[T2A]{fontenc}
-% \usepackage[utf8x]{inputenc}
+% \usepackage[utf8x]{inputenc} 
 
 \usepackage[russian]{babel}
 \usepackage[utf8x]{inputenc}
@@ -27,7 +27,7 @@
 	% color=black
     }
 }
-\begin{document}
+\begin{document}   
 \begin{tikzpicture}[scale=1]
 	\matrix[column sep=3mm,row sep=3mm]{
 	\begin{axis}[%
@@ -40,7 +40,7 @@
 	title={Фазовая плоскость},
 	name=plot1,
 	]
-	\addplot graphics [xmin=0,xmax=1,ymin=0,ymax=1]  {../photo/faz_pl.jpg};
+	\addplot graphics [xmin=0,xmax=1,ymin=0,ymax=1]  {../photo/faz_pl};
 	\end{axis} \\
 };
 \end{tikzpicture}
